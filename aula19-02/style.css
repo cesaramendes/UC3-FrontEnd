@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+
+main {
+    max-width:1200px;
+    margin: 0;
+}
+.produto {
+    display: inline-block;
+    margin: 10px auto;
+    width: 300px;
+    background-color: #b61717;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.produto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #20af0a;
+    
+}
+.descricao{
+    padding: 20px;
+}
