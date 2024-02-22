@@ -1,44 +1,49 @@
-
 .grid-container {
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-gap: 10px;
+grid-gap: 40px;
 }
-
+/* Quadro da Imagem do suco de laranja */
 .grid-item1{
-    background-color: rgb(247, 248, 249);
+    background-color: rgb(239, 238, 171);
     padding: 20px auto;
     text-align: center;
     border: 2px solid black;
 }
-
+/* Imagem do Copo de Suco de Laranja */
 .grid-item1 img {
     width: 400px;
-    text-align: center;
-
+    
 }
-
+/* Quadro com texto do suco de laranja */
 .grid-item2{
-    background-color: rgb(247, 248, 249);
-    padding: 20px;
+    background-color: rgb(239, 238, 171);
+    padding: 60px;
     text-align: center;
     font-size: 2rem;
+    border: 2px solid black;
 }
-
+/* Quadro com texto do livro */
 .grid-item3{
-    background-color: rgb(247, 248, 249);
-    padding: 5px;
+    background-color: rgb(58, 84, 110);
+    padding: 60px;
     text-align: center;
     font-size: 2rem;
+    border: 2px solid black;
 }
-
+/* Imagem do Livro*/
 .grid-item3 img {
-    width: 40%;
+    width: 400%;
 
 }
-
+/* Quadro da Imagem do Livro */
 .grid-item4{
-    background-color: rgb(247, 248, 249);
+    background-color: rgb(58, 84, 110);
     padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+footer{
     text-align: center;
 }

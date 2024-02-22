@@ -1,0 +1,37 @@
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "mains" "footer";
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #000;
+  background-color: bisque;
+}
+
+main {
+  grid-area: min;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  grid-template-columns: 
+  "aside1 section1 aside2"
+  "aside1 section2 aside";
+  background-color: rgb(168, 168, 175);
+}
+
+section:nth-of-type(1) {
+  grid-area: section1;
+  background-color: ;
+}
