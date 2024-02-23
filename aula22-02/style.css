@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+height: 100px;
+width: 100px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(53, 51, 51);
+
+}
+header {
+background-color: rgb(23, 22, 22);
+padding: 50px;
+color: aliceblue;
+text-align: center;
+
+}
+
+main {
+background-color: rgb(40, 38, 38);
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+color: white;
+max-width: 1200px;
+margin: 20px auto auto;
+}
+
+.band {
+display: flex;
+align-items: center;
+border: 10px;
+
+}
+.band-info {
+    flex: 1;
+}
+
+aside {
+background-color: rgb(24, 23, 23);
+color: white;
+padding: 20px;
+margin: 20px 10px 10px;
+
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+background-color: rgb(24, 23, 23);
+color: white;
+text-align: center;
+
+}
