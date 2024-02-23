@@ -5,6 +5,9 @@
 img {
 height: 100px;
 width: 100px;
+object-fit: cover;
+padding: 20px;
+
 }
 
 body {
@@ -15,47 +18,65 @@ body {
 }
 header {
 background-color: rgb(23, 22, 22);
-padding: 50px;
+padding: 10px;
 color: aliceblue;
 text-align: center;
 
 }
 
 main {
-background-color: rgb(40, 38, 38);
+background-color: rgb(7, 7, 7);
 display: flex;
 flex-wrap: wrap;
-padding: 20px;
+gap: 20px;
+padding: 60px;
 color: white;
 max-width: 1200px;
-margin: 20px auto auto;
+margin: 20px auto;
 }
 
 .band {
 display: flex;
 align-items: center;
 border: 10px;
+padding: 15px;
+gap: 5px;
 
 }
 .band-info {
     flex: 1;
+ 
+}
+.band-info h2 {
+    margin-bottom: 10px;
+ 
 }
 
 aside {
 background-color: rgb(24, 23, 23);
 color: white;
-padding: 20px;
+padding: 10px;
 margin: 20px 10px 10px;
+bottom: 0;
 
+}
+
+aside h2 {
+    margin-bottom: 20px;
+    
 }
 
 section {
     flex: 1;
+    border-radius: 5px;
+    background-color: rgb(37, 34, 34);
+    border: 1px solid #444;
 }
 
 footer {
 background-color: rgb(24, 23, 23);
 color: white;
 text-align: center;
+padding: 10px;
 
 }
