@@ -1,0 +1,41 @@
+:root {
+    background-color: #b4b5de;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(238, 93%, 30%);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ababf0;
+  }
+
+  ol {
+    background: #7e82ed;
+    padding: 80px;
+  }
+
+  ol li {
+    background: #f3f3f6;
+    color: rgb(23, 23, 235);
+    padding: 2rem;
+    text-align: justify;
+  }
