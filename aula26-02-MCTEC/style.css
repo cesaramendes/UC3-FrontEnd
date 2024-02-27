@@ -1,41 +1,66 @@
 :root {
-    background-color: #b4b5de;
-    margin: 0;
-    padding: 0;
+  background-color: #b4b5de;
+  margin: 0;
+  padding: 0;
+  font-size: Arial;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+}
+
+iframe {
+  min-width: 800px;
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: hsl(238, 93%, 30%);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #ababf0;
-  }
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(238, 93%, 30%);
+  border-radius: 1rem;
+}
 
-  ol {
-    background: #7e82ed;
-    padding: 80px;
-  }
+li {
+  margin-right: 30px;
+  display: flex;
+}
 
-  ol li {
-    background: #f3f3f6;
-    color: rgb(23, 23, 235);
-    padding: 2rem;
-    text-align: justify;
-  }
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+
+li a:hover {
+  background-color: #ababf0;
+  cursor: pointer
+}
+
+h1 {
+  text-align: center;
+}
+
+section {}
+
+aside {}
+
+footer {}
